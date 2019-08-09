@@ -1,9 +1,9 @@
 const router = require("express").Router();
-const homePage = require("../../client/src/App");
+const homePage = require("../../client/src");
 
 console.log("------>>>>on routes api homePage")
 
-router.use("/home", homeRoutes);
+router.use("/", homePage);
 
 // Matches with "/api/"
 // router.route("/")
