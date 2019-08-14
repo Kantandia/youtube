@@ -1,5 +1,6 @@
-# dependencies
 node_modules
+<<<<<<< HEAD
+=======
 ./client/node_modules
 /.pnp
 .pnp.js
@@ -25,3 +26,4 @@ yarn-error.log*
 
 # db
 config/config.json
+>>>>>>> master
